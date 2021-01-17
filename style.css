@@ -2,14 +2,12 @@
 {
   margin: 0;
   padding: 0;
-
 }
 
 .row
 {
    max-width: 1140px;
    margin: 0 auto;
-
 }
 
 body
@@ -24,8 +22,6 @@ body
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-
-
 }
 
 header
@@ -40,7 +36,6 @@ header
   border-right: none;
   position: relative;
   padding: 20px;
-
 }
 
 h1
@@ -86,11 +81,9 @@ h1
 
 .bottom-logo img
 {
-
     margin-left: 28%;
     margin-top: 0;
     overflow: hidden;
-
 }
 
 .contact h3
@@ -101,7 +94,6 @@ h1
 .contact p
 {
   padding: 20px;
-
 }
 
 .contact
@@ -126,7 +118,6 @@ h3::after
   content: "";
   margin: auto;
   margin-top: 7px;
-
 }
 
 .features
@@ -190,7 +181,6 @@ video {
   display: block;
   width: 25%;
   float: left;
-
 }
 
 .meal-photo
@@ -229,7 +219,7 @@ video {
 
 .work-steps
 {
-  margin-top: 50px;
+  margin: 10px 0 10px 0;
 }
 
 .work-steps div
@@ -241,6 +231,8 @@ video {
   height: 50px;
   text-align: center;
   line-height: 50px;
+  margin: 5px 0 5px 0;
+  font-family: tahoma;
 }
 
 .work-steps img
@@ -255,6 +247,18 @@ video {
   position: relative;
   margin-left: 10%;
   padding-top: -10px;
+}
+
+.work-steps .download-link {
+  font-family: tahoma;
+}
+
+.work-steps .fa-download {
+  color:#fff;
+}
+
+.work-steps .fa-download:hover {
+  color:#485765;
 }
 
 .clearfix
@@ -335,7 +339,6 @@ video {
   line-height: 25px;
   text-align: justify;
   margin-top: 40px;
-
 }
 
 .location
@@ -385,7 +388,6 @@ video {
 .form h3
 {
   padding: 20px;
-
 }
 
 .foot

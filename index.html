@@ -27,7 +27,6 @@
          <source src="image/food1.mp4" type="video/mp4"/> 
        </video>
        <!-- <iframe src="https://www.youtube.com/embed/CGZmwsK58M8" playsinline frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-
        <div class="row">
            <div class="logo">
               <img src="image/logo-white.png">
@@ -119,14 +118,29 @@
       <div class="col-md-12">
         <div class="work-steps text-center">
           <div>Breakfast</div>
-          <p> Served everyday from 09:00 - 11:30. <a href="download/BreakfastMenu.pdf" download="Breakfast_Menu"><img src="image/download.png"></a> <br>
-          </p>
+          <p> Served everyday from 09:00 - 11:30. </p>
+            <span>
+            <a href="download/BreakfastMenu.pdf" download="Breakfast_Menu">
+              <i class="fa fa-download"> <span class="download-link">Download Menu</span></i>
+            </span>
+          </a> 
+          <br>
           <div>Lunch</div>
-          <p>Served everyday from 12:00 - 15:30   <a href="download/LunchMenu.pdf" download="Lunch_Menu"> <img src="image/download.png"></a> <br>
-          </p>
+          <p>Served everyday from 12:00 - 15:30.  </p>  
+          <span>
+            <a href="download/BreakfastMenu.pdf" download="Breakfast_Menu">
+              <i class="fa fa-download"> <span class="download-link">Download Menu</span></i>
+          </span> 
+            </a>
+           <br>
           <div>Dinner</div>
-          <p>Served everyday from 18:00 - 21:30.  <a href="download/DinnerMenu.pdf" download="Dinner_Menu"> <img src="image/download.png"></a> <br>
-          </p>
+          <p>Served everyday from 18:00 - 21:30. </p>
+            <span>
+              <a href="download/BreakfastMenu.pdf" download="Breakfast_Menu">
+                <i class="fa fa-download"> <span class="download-link">Download Menu</span></i>
+              </span> 
+           </a>
+          <br>
         </div>
       </div>
     </div>
@@ -140,7 +154,6 @@
 <section class="location" id="Location">
   <h3 class="text-center">Find us at</h3>
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2486.8380901074215!2d5.472084851975314!3d51.44276727952458!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c6d91a565a3fed%3A0x8105ca74f7147812!2sFellenoord+170%2C+5611+ZB+Eindhoven!5e0!3m2!1sen!2snl!4v1515497436442" width="100%" height="450px" frameborder="0" style="border:0" allowfullscreen></iframe>
-
 </section>
 
 <section class="cities">
@@ -191,27 +204,24 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing elit
           </p>
            <cite> <img src="image/gordon.jpg">Gordon Ramsey</cite>
-
      </div>
      <div class="col-md-4">
-
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit
             Lorem ipsum dolor sit amet, consectetur adipiscing elit
             Lorem ipsum dolor sit amet, consectetur adipiscing elit
             Lorem ipsum dolor sit amet, consectetur adipiscing elit
           </p>
            <cite> <img src="image/jamie.jpg">Jamie Oliver</cite>
-
      </div>
      <div class="col-md-4">
-
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit
             Lorem ipsum dolor sit amet, consectetur adipiscing elit
             Lorem ipsum dolor sit amet, consectetur adipiscing elit
             Lorem ipsum dolor sit amet, consectetur adipiscing elit
           </p>
-           <cite> <img src="image/oprah.jpg">Oprah Winfrey</cite>
-
+           <cite> 
+             <img src="image/oprah.jpg">Oprah Winfrey
+            </cite>
      </div>
    </div>
   </div>
@@ -222,45 +232,43 @@
      <h3 class="text-center">Reserve a table.</h3>
    </div>
    <form id="contact-us" method="post" action="reserve.php">
-                               <!-- Left Inputs -->
-                               <div class="container">
-                                   <div class="row">
-
-                                       <div class="col-md-4">
-
-                                                   <input type="text" name="first_name" id="first_name" required="required" class="form-control" placeholder="First Name" /><br>
-                                                   <input type="text" name="last_name" id="last_name" required="required" class="form-control" placeholder="Last Name" /><br>
-                                                   <input type="text" name="state" id="state" required="required" class="form-control" placeholder="State" /><br>
-                                                   <input type="date" min="2017-01" max="2017-02" name="datepicker" id="datepicker" required="required" class="form-control" placeholder="Reservation Date" /><br>
-                                                   <input type="time" min="08:00" max="21:00" name="datepicker" id="datepicker" required="required" class="form-control" placeholder="Reservation Date" /><br>
-                                                               <!--   <div class='input-group date' id='datetimepicker1'>
-                                                                       <input type='text' class="form-control" />
-                                                                       <span class="input-group-addon">
-                                                                           <span class="glyphicon glyphicon-calendar"></span>
-                                                                       </span>
-                                                                   </div> -->
-                                               </div>
-                                                <div class="col-md-4">
-                                                   <input type="text" name="phone" id="phone" required="required" class="form-control" placeholder="Phone" /><br>
-                                                   <input type="text" name="guest" id="guest" required="required" class="form-control" placeholder="Guest Number" /><br>
-                                                   <input type="email" name="email" id="email" required="required" class="form-control" placeholder="Email" /><br>
-                                                   <input type="text" name="notes" id="notes"  class="form-control" placeholder="Extra Note" /><br>
-                                                   <button type="submit" id="submit" name="submit" class="btn btn-secondary btn-block">Reserve</button> </br>
-                                               </div>
-                                               <div class="col-md-4">
-                                                <div class="right-text">
-                                                    <p>Monday to Friday: 7:30 AM - 11:30 AM</p>
-                                                    <p>Saturday & Sunday: 8:00 AM - 9:00 AM</p>
-                                                    <p>Monday to Friday: 12:00 PM - 5:00 PM</p>
-                                                    <p>Monday to Saturday: 6:00 PM - 1:00 AM</p>
-                                                    <p>Sunday to Monday: 5:30 PM - 12:00 AM</p>
-                                                </div>
-                                            </div>
-                                           </div>
-                                       </div>
-                                   </div>
-                               </div>
-                           </form>
+   <!-- Left Inputs -->
+       <div class="container">
+           <div class="row">
+              <div class="col-md-4">
+                <input type="text" name="first_name" id="first_name" required="required" class="form-control" placeholder="First Name" /><br>
+                <input type="text" name="last_name" id="last_name" required="required" class="form-control" placeholder="Last Name" /><br>
+                <input type="text" name="state" id="state" required="required" class="form-control" placeholder="State" /><br>
+                <input type="date" min="2017-01" max="2017-02" name="datepicker" id="datepicker" required="required" class="form-control" placeholder="Reservation Date" /><br>
+                <input type="time" min="08:00" max="21:00" name="datepicker" id="datepicker" required="required" class="form-control" placeholder="Reservation Date" /><br>
+                  <!--<div class='input-group date' id='datetimepicker1'>
+                              <input type='text' class="form-control" />
+                              <span class="input-group-addon">
+                              <span class="glyphicon glyphicon-calendar"></span>
+                          </span>
+                      </div> -->
+                </div>
+              <div class="col-md-4">
+                <input type="text" name="phone" id="phone" required="required" class="form-control" placeholder="Phone" /><br>
+                <input type="text" name="guest" id="guest" required="required" class="form-control" placeholder="Guest Number" /><br>
+                <input type="email" name="email" id="email" required="required" class="form-control" placeholder="Email" /><br>
+                <input type="text" name="notes" id="notes"  class="form-control" placeholder="Extra Note" /><br>
+                <button type="submit" id="submit" name="submit" class="btn btn-secondary btn-block">Reserve</button> </br>
+                    </div>
+                <div class="col-md-4">
+                  <div class="right-text">
+                    <p>Monday to Friday: 7:30 AM - 11:30 AM</p>
+                    <p>Saturday & Sunday: 8:00 AM - 9:00 AM</p>
+                    <p>Monday to Friday: 12:00 PM - 5:00 PM</p>
+                    <p>Monday to Saturday: 6:00 PM - 1:00 AM</p>
+                    <p>Sunday to Monday: 5:30 PM - 12:00 AM</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </form>
 </section>
 
 <section class="contact" id="Contact">
@@ -276,7 +284,11 @@
            </div>
        </div>
        <div class="col-md-4">
-           <p class="text-center"> Follow us on social media <br><a href="https://twitter.com/?lang=en"></a><i class="fa fa-twitter-square fa-3x" ></i>  <i class=" fa fa-facebook-square fa-3x"></i>  <i class=" fa fa-instagram fa-3x"></i> </p>
+           <p class="text-center"> Follow us on social media <br>
+            <a href="https://twitter.com/?lang=en"></a>
+            <i class="fa fa-twitter-square fa-3x" ></i>  
+            <i class="fa fa-facebook-square fa-3x"></i>  
+            <i class=" fa fa-instagram fa-3x"></i> </p>
        </div>
         </div>
          </div>
